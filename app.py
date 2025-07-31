@@ -1,5 +1,3 @@
-# streamlit_app.py – Streamlit Interface for Your Custom Object Detector
-
 import streamlit as st
 import torch
 from PIL import Image
@@ -12,7 +10,7 @@ from torchvision.ops import nms
 import json
 import os
 
-# Class Names (same as training)
+# Class Names
 CLASS_NAMES = [
     'Advertize','Beach','Bird','Book','Brush','Bus','Clock','Coffee','Dog','Drawer', 
     'Food','Glass','Hot  dog','Kitchen', 'Laptop','Luggage', 'Mobile','Monument',
